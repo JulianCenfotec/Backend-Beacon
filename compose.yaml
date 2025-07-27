@@ -1,0 +1,14 @@
+name: proyectoiii-waddle-beacon
+services:
+  mysql:
+    container_name: proyectoiii-waddle-beacon
+    image: bitnami/mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=#Proyecto3
+      - MYSQL_USER=beacon
+      - MYSQL_PASSWORD=beacon
+      - MYSQL_DATABASE=beacon
+      - MYSQL_BIND_ADDRESS=0.0.0.0
+      - MYSQL_PORT_NUMBER=3306
+    ports:
+      - 3306:3306

@@ -1,0 +1,1 @@
+package cr.ac.ucenfotec.waddle.beacon.logic.entity.producto;
